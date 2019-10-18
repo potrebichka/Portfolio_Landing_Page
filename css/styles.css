@@ -20,7 +20,8 @@ body {
 .nav-item .nav-link:hover, .nav-item .nav-link:focus {
     border: none;
     background-color: purple;
-    color: white
+    color: white;
+    font-weight: bold;
 }
 
 #nav-about-tab:hover, #nav-about-tab:focus {
@@ -41,4 +42,38 @@ body {
 #nav-hobbies-tab:hover, #nav-hobbies-tab:focus {
     border: none;
     background-color: rgba(84, 114, 160, 0.9);
+}
+
+
+#photo_Nina {
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#about {
+    margin: 50px;
+    overflow:auto;
+}
+
+.section p {
+    *position: relative;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: rgba(36, 165, 116, 0.9);
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    #photo_Nina {
+        width: 50%;
+        clear: both;
+        display: block;
+        margin-left: 25%;
+    }
+    .section p {
+        display: inline-block
+    }
 }
