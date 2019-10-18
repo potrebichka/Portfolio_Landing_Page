@@ -85,6 +85,10 @@ body {
 
 }
 
+#projects {
+    background-color: rgba(56, 228, 56, 0.9);
+}
+
 @media screen and (max-width: 1000px) {
     #photo_Nina {
         width: 50%;
