@@ -98,21 +98,29 @@ body {
     list-style-type: none;
 }
 
+#projects a {
+    color: rgba(84, 114, 160, 0.9)
+}
+
 #projects ul li {
     display: inline;
     margin: 5px;
-    color: blue;
+    color:blue;
     font-family: cursive;
     font-size: 15px;
 }
 
 .project {
     border: 2px solid rgba(84, 114, 160, 0.9);
+    padding: 5px;
     margin: 10px;
     background-image: linear-gradient(rgba(56,228,56,0.9), rgba(36, 165, 116, 0.9));
     text-align: center;
 } 
 
+.project p {
+    font-size: 20px;
+}
 
 @media screen and (max-width: 1000px) {
     #photo_Nina {
