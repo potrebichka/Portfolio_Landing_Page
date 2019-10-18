@@ -52,18 +52,37 @@ body {
     margin-bottom: 50px;
 }
 
-#about {
+.section {
     margin: 50px;
-    overflow:auto;
+    padding: 50px;
 }
 
 .section p {
-    *position: relative;
-    color: white;
+    *color: white;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    background-color: rgba(36, 165, 116, 0.9);
     display: block;
+}
+
+#about {
+    overflow:auto;
+    background-color:rgb(255,255,0,0.75);
+    color: black
+}
+
+#background {
+    background-color: rgba(36, 165, 116, 0.9);
+    color: black;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#background li {
+    font-size: 20px;
+}
+
+#education_list {
+    list-style-type: none;
+
 }
 
 @media screen and (max-width: 1000px) {
