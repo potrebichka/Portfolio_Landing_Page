@@ -89,6 +89,31 @@ body {
     background-color: rgba(56, 228, 56, 0.9);
 }
 
+#projects img {
+    width: 80%;
+}
+
+#projects ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#projects ul li {
+    display: inline;
+    margin: 5px;
+    color: blue;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.project {
+    border: 2px solid rgba(84, 114, 160, 0.9);
+    margin: 10px;
+    background-image: linear-gradient(rgba(56,228,56,0.9), rgba(36, 165, 116, 0.9));
+    text-align: center;
+} 
+
+
 @media screen and (max-width: 1000px) {
     #photo_Nina {
         width: 50%;
