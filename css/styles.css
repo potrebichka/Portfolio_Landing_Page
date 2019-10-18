@@ -1,0 +1,44 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 39px;
+}
+
+.nav-tabs {
+    background-color: black;
+    border: none;
+    color: #fff
+}
+
+.nav-item .nav-link, .nav-item .nav-link .active {
+    color: white;
+    border: none;
+}
+
+.nav-item .nav-link:hover, .nav-item .nav-link:focus {
+    border: none;
+    background-color: purple;
+    color: white
+}
+
+#nav-about-tab:hover, #nav-about-tab:focus {
+    border: none;
+    background-color: rgb(255,255,0,0.75);
+}
+
+#nav-projects-tab:hover, #nav-projects-tab:focus {
+    border: none;
+    background-color: rgba(56, 228, 56, 0.9);
+}
+
+#nav-background-tab:hover, #nav-background-tab:focus {
+    border: none;
+    background-color: rgba(36, 165, 116, 0.9);
+}
+
+#nav-hobbies-tab:hover, #nav-hobbies-tab:focus {
+    border: none;
+    background-color: rgba(84, 114, 160, 0.9);
+}
