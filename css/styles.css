@@ -67,7 +67,12 @@ body {
 #about {
     overflow:auto;
     background-color:rgb(255,255,0,0.75);
-    color: black
+    color: black;
+    text-align: justify;
+}
+
+#about_text {
+    font-family: cursive;
 }
 
 #background {

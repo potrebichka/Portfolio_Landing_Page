@@ -18,7 +18,7 @@ _Page includes information about me and list of my recent projects, information 
 
 ## Contact details
 
-_Check out my portfolio page and you will how to contact me._
+_Check out [my portfolio page](https://potrebichka.github.io/Portfolio_Landing_Page/) and you will find how to contact me ._
 
 ## Technologies Used
 
