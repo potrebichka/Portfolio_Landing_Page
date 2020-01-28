@@ -76,7 +76,7 @@ body {
 }
 
 #about_text {
-    font-family: cursive;
+    font-size: 20px;
 }
 
 #background {
@@ -166,5 +166,16 @@ body {
     }
     .section p {
         display: inline-block
+    }
+}
+@media (max-width: 800px) {
+    .project p {
+        font-size: 15px;
+    }
+    .project h2 {
+        font-size: 20px;
+    }
+    #projects ul li {
+        font-size: 12px;
     }
 }
