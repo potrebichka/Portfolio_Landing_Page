@@ -2,7 +2,7 @@
 
 ## _Portfolio Landing Page_ ##
 
-#### _Version 10/18/2019_ ####
+#### _Version 01/27/2020_ ####
 
 ## Description ##
 
@@ -10,15 +10,11 @@ _Page includes information about me and list of my recent projects, information 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Open in browser of your choice next link: [my portfolio page](https://potrebichka.github.io/Portfolio_Landing_Page/) .
 
 ## Contact details
 
-_Check out [my portfolio page](https://potrebichka.github.io/Portfolio_Landing_Page/) and you will find how to contact me ._
+**Email**: potrebich@gmail.com
 
 ## Technologies Used
 
