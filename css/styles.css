@@ -64,7 +64,7 @@ body {
 .section p {
     *color: white;
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Arial ;
     display: block;
 }
 
@@ -82,7 +82,26 @@ body {
 #background {
     background-color: rgba(36, 165, 116, 0.9);
     color: black;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    margin-left: 10%;
+    padding: 50px 100px;
+}
+
+#background ul {
+    margin-bottom: 50px;
+}
+
+#background h2 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.center li {
+    list-style-type: none;
 }
 
 #background li {
@@ -96,6 +115,17 @@ body {
 
 #projects {
     background-color: rgba(56, 228, 56, 0.9);
+    text-align: center;
+}
+
+#projects h1 {
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #projects img {
@@ -121,10 +151,11 @@ body {
 
 .project {
     border: 2px solid rgba(84, 114, 160, 0.9);
-    padding: 5px;
+    padding: 20px;
     margin: 10px;
     background-image: linear-gradient(rgba(56,228,56,0.9), rgba(36, 165, 116, 0.9));
     text-align: center;
+    width: 500px;
 } 
 
 .project p {
